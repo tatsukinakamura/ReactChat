@@ -1,19 +1,19 @@
 import React from 'react'
 import * as firebase from 'firebase'
 
-var firebaseConfig = {
-    apiKey: "AIzaSyAqpjwO_kp1IzVzUs0XeuDp_TgFyYupD4A",
-    authDomain: "react-70c6a.firebaseapp.com",
-    databaseURL: "https://react-70c6a.firebaseio.com",
-    projectId: "react-70c6a",
-    storageBucket: "react-70c6a.appspot.com",
-    messagingSenderId: "688200749587",
-    appId: "1:688200749587:web:bb64959fe905f54ab5a5e6",
-    measurementId: "G-1BJ39KYEHC"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+  apiKey: "AIzaSyA1xxjD9GRojSlHaA4VBAxcfeOAcOXr2eY",
+  authDomain: "demoreact-191b5.firebaseapp.com",
+  databaseURL: "https://demoreact-191b5.firebaseio.com",
+  projectId: "demoreact-191b5",
+  storageBucket: "demoreact-191b5.appspot.com",
+  messagingSenderId: "831834079954",
+  appId: "1:831834079954:web:6df8d178ae1391afeae30b",
+  measurementId: "G-YZ03CHH744"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 
   export default firebase;
